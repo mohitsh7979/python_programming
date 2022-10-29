@@ -1,0 +1,1 @@
+With the help of x keywprd we create a new file and after then with the help of w method we are going to add some txt in our txt filewith the help of a method we add the some new text in our txt file
