@@ -50,9 +50,6 @@ class A():
         self.father=input("Enter your Father Name :")
      def info(self):
         print(self.name,self.father)
-        
-
-
 
 
 class b():

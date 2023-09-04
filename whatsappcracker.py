@@ -1,3 +1,4 @@
+
 # import pyautogui as auto
 # import time
 # while True:
@@ -54,8 +55,22 @@
 #     auto.click(1329,451)
 
 
+import pyautogui as auto
+import time
+i = 0
+while i<=50:
+    auto.write('Hello')
+    auto.press('enter')
+
+    time.sleep(0.2)
+    i = i+1
 
 
-   
+
+
+    
+
+
+    
 
 
