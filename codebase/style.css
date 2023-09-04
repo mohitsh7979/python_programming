@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+header #logo img {
+  width: 140px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul a {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  color: #000;
+  font-size: 18px;
+  font-weight: 900;
+}
+.blue-nav {
+  color: #fff;
+  background-color: rgb(71, 26, 255);
+  border-radius: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;  
+  font-weight: 900;
+}
+
+
+
+#hero {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 96px);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+#hero .left {
+  width: 45%;
+}
+#hero .left {
+  padding-top: 6rem;
+  padding-right: 4rem;
+}
+#hero .left h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+#hero .left p {
+  line-height: 1.5;
+}
+#hero .left a {
+  margin-top: 2rem;
+  display: inline-block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 22px;
+}
+
+
+
+#hero .right {
+  width: 40%;
+  margin-left: 4rem;
+}
+
+
+
+#companies {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#companies h1 {
+  margin-bottom: 2rem;
+}
+#companies .companies-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#companies .companies-list img {
+  width: 170px;
+  margin: 0 1.25rem;
+}
+#companies .companies-list img:last-of-type {
+  width: 80px;
+}
+
+
+
+#meet {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#meet h1,
+#commitment h1,
+#topTalent h1,
+#hireThroughUs h1 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+#meet .talents {
+  display: flex;
+  width: 75%;
+}
+#meet .talents .talent {
+  width: 30%;
+  margin: 0 1.5%;
+  padding: 2rem;
+  border: 1px solid;
+  border-radius: 1rem;
+}
+#meet .talents .talent .talent-img,
+#meet .talents .talent .credentials {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#meet .talents .talent .credentials {
+  line-height: 2;
+}
+#meet .talents .talent .credentials p {
+  font-size: 90%;
+  color: #8a8585;
+}
+#meet .talents .talent img {
+  width: 120px;
+  height: 120px;
+}
+#meet .talents .talent .talent-techstack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+#meet .talents .talent .talent-techstack li {
+  background-color: #676565;
+  padding: 0.5rem;
+  margin: 0.35rem 0.25rem;
+  border-radius: 1rem;
+  font-size: 80%;
+  color: #fff;
+}
+#meet .dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+#meet .dots .dot {
+  width: 8px;
+  height: 8px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 0.25rem;
+}
+
+
+
+#commitment {
+  background: url(images/earthBackground.jpeg) no-repeat scroll center / cover;
+  padding: 5rem 3rem;
+  text-align: center;
+  color: #fff;
+}
+#commitment .top,
+#commitment .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#commitment .commit {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  margin: 2rem;
+  width: 25%;
+  border-radius: 1.5rem;
+}
+#commitment .commit img {
+  width: 100px;
+  margin-bottom: 3rem;
+}
+#commitment .commit h2 {
+  margin-bottom: 1rem;
+}
+#commitment .commit p {
+  font-size: 22px;
+}
+
+
+
+#topTalent {
+  padding: 5rem 3rem;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+#topTalent .topTalent-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+#topTalent .topTalent-wrapper .initiative-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+#topTalent .topTalent-wrapper .initiative-wrapper .initiative {
+  width: 45%;
+  margin: 2.5%;
+  text-align: left;
+}
+#topTalent .topTalent-wrapper .initiative-wrapper .initiative img {
+  width: 60px;
+  margin-bottom: 1.5rem;
+}
+#topTalent .topTalent-wrapper .initiative-wrapper .initiative p,
+#hero .left p,
+#hireThroughUs .hireThroughUs-wrapper .right .pointer .content p, #ourServices .services-wrapper .service p {
+  line-height: 1.5;
+}
+
+
+
+#hireThroughUs {
+  padding: 2rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+#hireThroughUs .hireThroughUs-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hireThroughUs .hireThroughUs-wrapper .left {
+  width: 50%;
+}
+#hireThroughUs .hireThroughUs-wrapper .right {
+  width: 40%;
+  margin-left: 9%;
+}
+#hireThroughUs .hireThroughUs-wrapper img {
+  width: 100%;
+}
+#hireThroughUs .hireThroughUs-wrapper .right .pointer {
+  display: flex;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+#hireThroughUs .hireThroughUs-wrapper .right .pointer .number {
+  height: 70px;
+  width: 70px;
+  margin-right: 2rem;
+  border: 8px solid #471aff;
+  color: #471aff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 3rem;
+  font-weight: 900;
+}
+#hireThroughUs .hireThroughUs-wrapper .right .pointer .content {
+  width: 75%;
+}
+
+
+
+
+#joinUs {
+  background-color: #6032ff;
+  color: #fff;
+  text-align: center;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#joinUs .joinUs-wrapper {
+  width: 50%;
+}
+#joinUs h1 {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+#joinUs a {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 900;
+}
+#joinUs span{
+  display: inline-block;
+  margin: 0 1rem;
+}
+#joinUs .white-link{
+  border: 3px solid #fff;
+  border-radius: 0.5rem;
+}
+
+
+
+footer{
+  background-color: #4719ff;
+  color: #fff;
+  padding: 4rem 5rem;
+}
+footer img{
+  width: 180px;
+}
+footer .top{
+  border-bottom: 1px solid #fff;
+}
+footer .bottom{
+  display: flex;
+  justify-content: space-between;
+}
+footer .bottom .left{
+  font-size: 70%;
+}
+footer .bottom .left p{
+  margin: 0.25rem 0;
+}
+footer .bottom .left p.grey{
+  color: #c9c0c0;
+}
+footer .bottom .socialIcons{
+  margin-bottom: 1rem;
+}
+footer .bottom .socialIcons i{
+  color: #fff;
+  font-size: 22px;
+  padding: 0.5rem;
+}
+footer .bottom ul{
+  display: flex;
+}
+footer .bottom ul a{
+  color: #fff;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 90%;
+}
+
+
+
+#ourServices{
+  padding: 4rem 1rem;
+}
+#ourServices h2{
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+}
+#ourServices .services-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+#ourServices .services-wrapper .service{
+  width: 25%;
+  margin: 3% 1%;
+  padding: 2rem;
+  padding-top: 4rem;
+  text-align: center;
+  border: 3px solid #e3e3e3;
+  border-radius: 1rem;
+  position: relative;
+}
+#ourServices .services-wrapper .service .icon i {
+  font-size: 3rem;
+  color: #4719ff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  border: 3px solid #e3e3e3;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20%;
+  left: 40%;
+}
+#ourServices .services-wrapper .service h3{
+  margin-bottom: 1rem;
+}
+
+
+
+#technicalDepth {
+  background-color: #4719ff;
+  padding: 3rem;
+}
+#technicalDepth .technicalDepth-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+#technicalDepth h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+#technicalDepth .technical-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+#technicalDepth .technical-wrapper .technical {
+  width: 23%;
+  margin: 1rem 0.5rem;
+}
+
+
+
+
+#projectIdea{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#projectIdea h2{
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+#projectIdea p{
+  margin-bottom: 1rem;
+}
+#projectIdea .blue-nav{
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+
+
+@media all and (max-width: 1175px){
+  .right img{
+    width: 100%;
+  }
+}
+
+@media all and (max-width:970px){
+  #companies .companies-list {
+    flex-wrap: wrap;
+  }
+  #meet .talents{
+    width:90%;
+  }
+  #joinUs .joinUs-wrapper{
+    width: 70%;
+  }
+  #hero{
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  #hero .left, #hero .right{width: 100%;}
+
+}
+
+@media all and (max-width: 840px){
+  #meet .talents{flex-wrap: wrap;}
+  #meet .talents .talent{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+}
